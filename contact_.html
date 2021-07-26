@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: #bed0f1	;
+        }
+    </style>
 </head>
 <body>
     <h1>My Contact Details</h1>
     <p>My Fictional Address</p>
     <p>012345xxxx</p>
     <p>sangvu218@gmail.com</p>
-    <form class="" action="profile.html"method="">
-        <label>Your Name  </label>
-        <input type="text" name="" id="">
-        <input type="color">
-        <br>
+    <hr>
+    <form class="" action="mailto:sangvu218@gmail.com"method="post" enctype="text/plain">
+        <input type="checkbox">
         <label> Do you want to sign up to the email list?</label>
         <br>
-        <label>Password </label>
-        <input type="password">
+        <label>Your Name  </label>
+        <input type="text" name="yourName " id="">
+        <br>
+        <label>Your Email </label>
+        <input type="email" name="yourEmail">
+        <br>
+        <label>Your Message</label> <br>
+        <textarea name="yourMessage" id="" cols="80" rows="10"></textarea>
+        <br>
         <input type="submit" name="" >
     </form>
 </body>
